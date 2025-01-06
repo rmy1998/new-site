@@ -40,17 +40,6 @@ sections:
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
         Please reach out to collaborate 😃
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
     design:
       columns: '1'
   - block: collection
