@@ -36,6 +36,7 @@ sections:
       subtitle: ''
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
