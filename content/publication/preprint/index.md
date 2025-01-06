@@ -5,11 +5,6 @@ authors:
 - Jie Ma
 - admin
 - Tuan Tran
-author_urls:
-- ""
-- "http://staff.ustc.edu.cn/~jiema/"
-- ""
-- ""
 date: "2023-10-11T00:00:00Z"
 doi: ""
 
