@@ -2,7 +2,7 @@
 title: "Complexity of null dynamical systems and Sauer--Shelah lemmas"
 authors:
 - Guorong Gao
-- [Jie Ma](http://staff.ustc.edu.cn/~jiema/)
+- Jie Ma
 - admin
 - Tuan Tran
 date: "2023-10-11T00:00:00Z"
