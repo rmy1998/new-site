@@ -1,9 +1,8 @@
 ---
 # Display name
-title: 戎明远
+title: Mingyuan Rong
 
 # Name pronunciation (optional)
-name_pronunciation: Rong Mingyuan
 
 # Full name (for SEO)
 first_name: Mingyuan
