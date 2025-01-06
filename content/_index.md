@@ -34,7 +34,13 @@ sections:
     content:
       title: 'Publications'
       subtitle: ''
-      text: Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
+      text:|-
+        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        
+        Please reach out to collaborate 😃
+    Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
     Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
     Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
     Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
