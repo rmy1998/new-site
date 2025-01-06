@@ -34,10 +34,10 @@ sections:
     content:
       title: 'Publications'
       subtitle: ''
-      text: |-
-             Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-             Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
-             Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
+      text: |
+             -Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
+             -Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
+             -Guorong Gao, [Jie Ma](http://staff.ustc.edu.cn/~jiema/), **Mingyuan Rong**, Tuan Tran (2023).  Complexity of null dynamical systems and Sauer--Shelah lemmas.
     design:
       columns: '1'
   - block: collection
