@@ -88,13 +88,12 @@ skills:
         percent: 80
         icon: camera
 
+
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -106,4 +105,4 @@ languages:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Mingyuan Rong is a Ph.D. candidate in Mathematics at the University of Science and Technology of China. His research interests include extremal set theory and extremal graph theory. He is currently working under the supervision of Prof. Jie Ma and has published several preprints in these areas.
