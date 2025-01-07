@@ -30,9 +30,14 @@ tags:
 featured: true
 
 links:
-- name: arXiv
-  url: https://arxiv.org/abs/2310.05353
-url_pdf: https://arxiv.org/pdf/2310.05353
+  - icon: arxiv
+    icon_pack: ai
+    name: arXiv
+    url: https://arxiv.org/abs/2310.05353
+  - icon: file-pdf
+    icon_pack: fas
+    name: PDF
+    url: https://arxiv.org/pdf/2310.05353
 
 
 # Featured image
