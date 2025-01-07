@@ -19,7 +19,7 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: 
+abstract: |
 For an $n$-vertex graph $G$, let $h(G)$ denote the smallest size of a subset of $V(G)$ such that it intersects every maximum independent set of $G$. A conjecture posed by Bollob\'{a}s, Erd\H{o}s and Tuza in early 90s remains widely open, asserting that for any $n$-vertex graph $G$, if the independence number $\alpha(G) =\Omega(n) $, then $h(G) = o(n)$. In this paper, we establish the validity of this conjecture for various classes of graphs, Our main contributions include:
 \begin{enumerate}
   \item We provide a novel unified framework to find sub-linear hitting sets for graphs with certain locally sparse properties. Based on this framework, we can find hitting sets of size at most $O(\frac{n}{\log{n}})$ in any $n$-vertex even-hole-free graph (in particular, chordal graph) and in any $n$-vertex disk graph, with linear independence numbers. 
