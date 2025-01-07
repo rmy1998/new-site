@@ -18,7 +18,16 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: The topological entropy of a topological dynamical system, introduced in a foundational paper by Adler, Konheim and McAndrew [Trans. Am. Math. Soc., 1965], is a nonnegative number that measures the uncertainty or disorder of the system. Comparing with positive entropy systems, zero entropy systems are much less understood. In order to distinguish between zero entropy systems, Huang and Ye [Adv. Math., 2009] introduced the concept of maximal pattern entropy of a topological dynamical system. At the heart of their analysis is a Sauer-Shelah type lemma. In the present paper, we provide a shorter and more conceptual proof of a strengthening of this lemma, and discuss its surprising connection between dynamical system, combinatorics and a recent breakthrough in communication complexity. We also improve one of the main results of Huang and Ye on the maximal pattern entropy of zero-dimensional systems, by proving a new Sauer-Shelah type lemma, which unifies and enhances various extremal results on VC-dimension, Natarajan dimension and Steele dimension.
+abstract: |
+For non-negative integers n, m, a and b, we write (n,m)→(a,b) if for every family F⊆ 2^[n] with |F|≥ m there is an a-element set T⊆[n] such that |F_|T|≥ b, where F_|T={F∩T:F∈F}. A longstanding problem in extremal set theory asks to determine m(s)=lim_{n→+∞} m(n,s)/n, where m(n,s) denotes the maximum integer m such that (n,m)→(n-1,m-s) holds for non-negatives n and s. In this paper, we establish the exact value of m(2^{d-1}-c) for all 1≤ c≤ d whenever d≥ 50, thereby solving an open problem posed by Piga and Schülke. To be precise, we show that
+
+m(n,2^{d-1}-c) = 
+{
+  (2^d - c)/d * n for 1≤ c≤ d-1 and d does not divide n,
+  (2^d - d - 0.5)/d * n for c=d and 2d does not divide n
+}
+
+holds for d≥ 50. Furthermore, we provide a proof that confirms a conjecture of Frankl and Watanabe from 1994, demonstrating that m(11)=5.3.
 
 # Summary. An optional shortened abstract.
 
