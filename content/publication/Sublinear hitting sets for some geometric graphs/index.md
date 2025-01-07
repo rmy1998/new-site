@@ -19,11 +19,19 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: The topological entropy of a topological dynamical system, introduced in a foundational paper by Adler, Konheim and McAndrew [Trans. Am. Math. Soc., 1965], is a nonnegative number that measures the uncertainty or disorder of the system. Comparing with positive entropy systems, zero entropy systems are much less understood. In order to distinguish between zero entropy systems, Huang and Ye [Adv. Math., 2009] introduced the concept of maximal pattern entropy of a topological dynamical system. At the heart of their analysis is a Sauer-Shelah type lemma. In the present paper, we provide a shorter and more conceptual proof of a strengthening of this lemma, and discuss its surprising connection between dynamical system, combinatorics and a recent breakthrough in communication complexity. We also improve one of the main results of Huang and Ye on the maximal pattern entropy of zero-dimensional systems, by proving a new Sauer-Shelah type lemma, which unifies and enhances various extremal results on VC-dimension, Natarajan dimension and Steele dimension.
+abstract: 
+For an $n$-vertex graph $G$, let $h(G)$ denote the smallest size of a subset of $V(G)$ such that it intersects every maximum independent set of $G$. A conjecture posed by Bollob\'{a}s, Erd\H{o}s and Tuza in early 90s remains widely open, asserting that for any $n$-vertex graph $G$, if the independence number $\alpha(G) =\Omega(n) $, then $h(G) = o(n)$. In this paper, we establish the validity of this conjecture for various classes of graphs, Our main contributions include:
+\begin{enumerate}
+  \item We provide a novel unified framework to find sub-linear hitting sets for graphs with certain locally sparse properties. Based on this framework, we can find hitting sets of size at most $O(\frac{n}{\log{n}})$ in any $n$-vertex even-hole-free graph (in particular, chordal graph) and in any $n$-vertex disk graph, with linear independence numbers. 
+  \item Utilizing geometric observations and combinatorial arguments, we show that any $n$-vertex circle graph $G$ with linear independence number satisfies $h(G)\le O(\sqrt{n})$. Moreover, we extend this methodology to more general classes of graphs.
+   \item We show the conjecture holds for those hereditary graphs having sublinear balanced separators.
+\end{enumerate}
+ We also show that $h(G)$ can be upper bounded by constants for several sporadic families of graphs with large independence numbers.
 
 # Summary. An optional shortened abstract.
 
 tags:
+- Bollob\'{a}s-Erd\H{o}s-Tuza conjecture
 - Hitting Sets
 - Geometric Graphs
 
