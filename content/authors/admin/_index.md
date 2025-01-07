@@ -19,11 +19,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Student
+role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: USTC
+  - name: University of Science and Technology of China
     url: https://ustc.edu.cn/
 
 # Social network links
