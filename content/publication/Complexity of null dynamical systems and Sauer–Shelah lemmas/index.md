@@ -30,9 +30,9 @@ tags:
 featured: true
 
 links:
+url_pdf: https://arxiv.org/pdf/2310.05353
 - name: arXiv
   url: https://arxiv.org/abs/2310.05353
-url_pdf: https://arxiv.org/pdf/2310.05353
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
