@@ -27,6 +27,7 @@ tags:
 
 featured: true
 
+url_slides: 'slides.pdf'
 url_pdf: https://arxiv.org/pdf/2406.18870
 links:
   - name: arXiv
