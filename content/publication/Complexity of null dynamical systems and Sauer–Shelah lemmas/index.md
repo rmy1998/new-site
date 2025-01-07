@@ -29,13 +29,10 @@ tags:
 
 featured: true
 
+url_pdf: https://arxiv.org/pdf/2310.05353
 links:
-  - icon: academicons/arxiv
-    name: arXiv
+  - name: arXiv
     url: https://arxiv.org/abs/2310.05353
-  - icon: hero/newspaper
-    name: PDF
-    url: https://arxiv.org/pdf/2310.05353
 
 
 # Featured image
