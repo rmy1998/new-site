@@ -36,7 +36,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication
+          - publication/preprint
         exclude_featured: false
     design:
       view: citation
