@@ -104,4 +104,4 @@ languages:
 
 ## About Me
 
-Mingyuan Rong is a Ph.D. candidate in Mathematics at the University of Science and Technology of China. His research interests include extremal set theory and extremal graph theory. He is currently working under the supervision of Prof. Jie Ma and has published several preprints in these areas.
+I am a Ph.D. candidate in Mathematics at the University of Science and Technology of China. My research interests include extremal set theory and extremal graph theory. I am currently working under the supervision of Prof. Jie Ma and has published several preprints in these areas. 
