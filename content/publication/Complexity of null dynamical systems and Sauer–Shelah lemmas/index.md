@@ -30,12 +30,10 @@ tags:
 featured: true
 
 links:
-  - icon: arxiv
-    icon_pack: ai
+  - icon: academicons/arxiv
     name: arXiv
     url: https://arxiv.org/abs/2310.05353
-  - icon: file-pdf
-    icon_pack: fas
+  - icon: hero/newspaper
     name: PDF
     url: https://arxiv.org/pdf/2310.05353
 
