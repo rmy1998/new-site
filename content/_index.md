@@ -49,9 +49,15 @@ sections:
       columns: '1'
   - block: markdown
     content:
-      title: 'Useful website'
-      subtitle: 'some website that I recommend for academic research'
-      text: "[Ai->Deepseek](https://chat.deepseek.com/), [Related paper search->inciteful](https://inciteful.xyz/), [Slow but very powerful AI paper search->undermind](https://www.undermind.ai/home/)."
+      title: 'Useful websites'
+      subtitle: 'Recommended resources for academic research'
+      text: |
+        - **[Deepseek](https://chat.deepseek.com/)**  
+          AI-powered research assistant for technical queries
+        - **[Inciteful](https://inciteful.xyz/)**  
+          Literature discovery tool to find related academic papers
+        - **[Undermind](https://www.undermind.ai/home/)**  
+          Advanced AI paper search engine with deep analysis capabilities
     design:
       columns: '1'
 ---
