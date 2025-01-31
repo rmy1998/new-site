@@ -49,7 +49,7 @@ sections:
       columns: '1'
   - block: markdown
     content:
-      title: 'Useful website'
+      title: 'Useful websites'
       subtitle: 'some tools that I recommend for academic research'
       text: |
         - Here are three tools that significantly improved my research workflow: 
