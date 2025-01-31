@@ -47,4 +47,11 @@ sections:
       text: "[Jie Ma](http://staff.ustc.edu.cn/~jiema/)(2), Xinqi Huang(1), Xinbu Cheng(1), Guorong Gao(1), Mingze Li(1), [Tuan Tran](https://tuaentran.wixsite.com/homepage)(1), [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/)(1), [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/)(0)."
     design:
       columns: '1'
+  - block: markdown
+    content:
+      title: 'Co-authors'
+      subtitle: ''
+      text: "[Jie Ma](http://staff.ustc.edu.cn/~jiema/)(2), Xinqi Huang(1), Xinbu Cheng(1), Guorong Gao(1), Mingze Li(1), [Tuan Tran](https://tuaentran.wixsite.com/homepage)(1), [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/)(1), [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/)(0)."
+    design:
+      columns: '1'
 ---
