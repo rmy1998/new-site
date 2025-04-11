@@ -103,5 +103,6 @@ languages:
 ---
 
 ## About Me
+I am a Ph.D. candidate in Mathematics at the University of Science and Technology of China. My research interests include extremal set theory and extremal graph theory. I am honored to be advised by Prof. [Jie Ma](http://staff.ustc.edu.cn/~jiema/), whose guidance has been fundamental to my academic development.
 
-I am a Ph.D. candidate in Mathematics at the University of Science and Technology of China. My research interests include extremal set theory and extremal graph theory. I am currently working under the supervision of Prof. [Jie Ma](http://staff.ustc.edu.cn/~jiema/) and has published several preprints in these areas. 
+I am also grateful for the valuable interactions and collaborations with Prof. Hong Liu, Dr. Zixiang Xu, and Prof. Tuan Tran, who have contributed significantly to my research progress.
