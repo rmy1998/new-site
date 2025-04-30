@@ -61,4 +61,11 @@ sections:
           When I'm not exactly sure what keywords to search, **[Undermind](https://www.undermind.ai/home/)** is my secret weapon. Unlike traditional keyword searches, its AI-powered system allows you to search without any keywords - you can progressively narrow or broaden the scope through dialogue, it understands the context like a research partner would. The downside is it is very slow, since it need to use LLM for vague searching.
     design:
       columns: '1'
+  - block: markdown
+    content:
+      title: 'Co-authors'
+      subtitle: ''
+      text: "[Jie Ma](http://staff.ustc.edu.cn/~jiema/)(2), Xinqi Huang(1), Xinbu Cheng(1), Guorong Gao(1), Mingze Li(1), [Tuan Tran](https://tuaentran.wixsite.com/homepage)(1), [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/)(1), [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/)(0)."
+    design:
+      columns: '1'
 ---
