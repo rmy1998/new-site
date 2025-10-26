@@ -28,7 +28,7 @@ tags:
 
 featured: true
 
-url_pdf: https://arxiv.org/abs/2506.13606
+url_pdf: https://arxiv.org/pdf/2506.13606
 links:
   - name: arXiv
     url: https://arxiv.org/abs/2506.13606
