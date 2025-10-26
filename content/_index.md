@@ -44,7 +44,7 @@ sections:
     content:
       title: 'Co-authors'
       subtitle: ''
-      text: "[Xinqi Huang](https://huangxinqi314.github.io/hxq-website/experience/)(2), [Jie Ma](http://staff.ustc.edu.cn/~jiema/)(2), [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/)(2), Xinbu Cheng(1), Guorong Gao(1), Mingze Li(1), [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/)(1), [Tuan Tran](https://tuaentran.wixsite.com/homepage)(1)."
+      text: "[Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/)(4), [Jie Ma](http://staff.ustc.edu.cn/~jiema/)(3), [Xinqi Huang](https://huangxinqi314.github.io/hxq-website/experience/)(2), Mingze Li(2), Wenchong Chen(1), Xinbu Cheng(1), Guorong Gao(1), [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/)(1), Yuzhen Qi(1), [Tuan Tran](https://tuaentran.wixsite.com/homepage)(1)."
     design:
       columns: '1'
   - block: markdown
