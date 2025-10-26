@@ -52,7 +52,6 @@ sections:
       title: 'Useful websites'
       subtitle: 'some tools that I recommend for academic research'
       text: |
-        - Here are some useful tools
         - **[Deepseek](https://chat.deepseek.com/)**  
         - **[Inciteful](https://inciteful.xyz/)**  
         - **[Undermind](https://www.undermind.ai/home/)**  
