@@ -45,13 +45,20 @@ education:
     date_end: ''
     summary: |
       Advisor: Prof. Jie Ma
+  - area: Visiting Student Researcher
+    institution: University of Warwick
+    date_start: 2025-06-01
+    date_end: ''
+    summary: |
+      A one-year research visit.
+      Host and Research Mentor: Prof. Oleg Pikhurko
+      Supported by the Excellent PhD Students Overseas Study Fellowship (USTC).
   - area: B.Sc. in Mathematics
     institution: University of Science and Technology of China
     date_start: 2017-09-01
     date_end: 2021-08-31
     summary: |
       Graduated with a Bachelor's degree in Mathematics.
-
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
