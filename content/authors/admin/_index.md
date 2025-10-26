@@ -114,4 +114,4 @@ I am a Ph.D. candidate in Mathematics at the University of Science and Technolog
 
 To further broaden my research perspective, I am currently a Visiting Student Researcher at the University of Warwick. I am grateful for this opportunity to work with Prof. [Oleg Pikhurko](https://warwick.ac.uk/fac/sci/maths/people/staff/oleg_pikhurko/) and learn from his invaluable insights.
 
-My work has also been significantly advanced by fruitful collaborations with Prof. [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/), Dr. [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/), and Prof. [Tuan Tran](https://tuaentran.wixsite.com/homepage).
+My work has also been significantly advanced by fruitful collaborations with Prof. [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/), Prof. [Tuan Tran](https://tuaentran.wixsite.com/homepage), and Dr. [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/).
