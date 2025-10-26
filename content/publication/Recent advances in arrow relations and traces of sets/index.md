@@ -18,10 +18,12 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract:|
-The arrow relation, a central concept in extremal set theory, captures quantitative relationships between families of sets and their traces. Formally, the arrow relation $(n, m) \rightarrow (a, b)$ signifies that for any family $\mathcal{F} \subseteq 2^{[n]}$ with $|\mathcal{F}| \geqslant m$, there exists an $a$-element subset $T \subseteq [n]$ such that the trace $\mathcal{F}_{|T} = \{ F \cap T : F \in \mathcal{F} \}$ contains at least $b$ distinct sets. 
-This survey highlights recent progress on a variety of problems and results connected to arrow relations. 
-We explore diverse topics, broadly categorized by different extremal perspectives on these relations, offering a cohesive overview of the field.
+abstract: |
+  The arrow relation, a central concept in extremal set theory, captures quantitative relationships between families of sets and their traces. Formally, the arrow relation $(n, m) \rightarrow (a, b)$ signifies that for any family $\mathcal{F} \subseteq 2^{[n]}$ with $|\mathcal{F}| \geqslant m$, there exists an $a$-element subset $T \subseteq [n]$ such that the trace $\mathcal{F}_{|T} = \{ F \cap T : F \in \mathcal{F} \}$ contains at least $b$ distinct sets. 
+  
+  This survey highlights recent progress on a variety of problems and results connected to arrow relations. 
+  
+  We explore diverse topics, broadly categorized by different extremal perspectives on these relations, offering a cohesive overview of the field.
 
 # Summary. An optional shortened abstract.
 
