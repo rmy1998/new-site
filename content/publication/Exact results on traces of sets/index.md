@@ -5,7 +5,7 @@ authors:
 - Jie Ma
 - admin
 date: "2024-06-27T00:00:00Z"
-doi: ""
+doi: "10.1007/s00493-026-00209-y"
 
 # Schedule page publish date (NOT publication's date).
 
@@ -15,15 +15,15 @@ doi: ""
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Combinatorica, 46(3), 2026"
+publication_short: "Combinatorica"
 
 abstract: |-
     For non-negative integers n, m, a and b, we write (n,m)→(a,b) if for every family F⊆ 2^[n] with |F|≥ m there is an a-element set T⊆[n] such that |F_|T|≥ b, where F_|T={F∩T:F∈F}. A longstanding problem in extremal set theory asks to determine m(s)=lim_{n→+∞} m(n,s)/n, where m(n,s) denotes the maximum integer m such that (n,m)→(n-1,m-s) holds for non-negatives n and s. In this paper, we establish the exact value of m(2^{d-1}-c) for all 1≤ c≤ d whenever d≥ 50, thereby solving an open problem posed by Piga and Schülke. To be precise, we show that
     m(n,2^{d-1}-c) = 
     {
-      (2^d - c)/d * n for 1≤ c≤ d-1 and d does not divide n,
-      (2^d - d - 0.5)/d * n for c=d and 2d does not divide n
+      (2^d - c)/d * n for 1≤ c≤ d-1 and d divides n,
+      (2^d - d - 0.5)/d * n for c=d and 2d divides n
     }
     holds for d≥ 50. Furthermore, we provide a proof that confirms a conjecture of Frankl and Watanabe from 1994, demonstrating that m(11)=5.3.
 
