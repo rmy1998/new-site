@@ -1,12 +1,12 @@
 ---
-title: "Complexity of null dynamical systems and Sauer--Shelah lemmas"
+title: "Variants of VC dimension and their applications to dynamics"
 authors:
 - Guorong Gao
 - Jie Ma
 - admin
 - Tuan Tran
 date: "2023-10-11T00:00:00Z"
-doi: ""
+doi: "10.4310/PAMQ.251222233602"
 
 # Schedule page publish date (NOT publication's date).
 
@@ -16,8 +16,8 @@ doi: ""
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Pure and Applied Mathematics Quarterly, 21(6): 2425-2449"
+publication_short: "Pure Appl. Math. Q."
 
 abstract: The topological entropy of a topological dynamical system, introduced in a foundational paper by Adler, Konheim and McAndrew [Trans. Am. Math. Soc., 1965], is a nonnegative number that measures the uncertainty or disorder of the system. Comparing with positive entropy systems, zero entropy systems are much less understood. In order to distinguish between zero entropy systems, Huang and Ye [Adv. Math., 2009] introduced the concept of maximal pattern entropy of a topological dynamical system. At the heart of their analysis is a Sauer-Shelah type lemma. In the present paper, we provide a shorter and more conceptual proof of a strengthening of this lemma, and discuss its surprising connection between dynamical system, combinatorics and a recent breakthrough in communication complexity. We also improve one of the main results of Huang and Ye on the maximal pattern entropy of zero-dimensional systems, by proving a new Sauer-Shelah type lemma, which unifies and enhances various extremal results on VC-dimension, Natarajan dimension and Steele dimension.
 
