@@ -113,7 +113,7 @@ languages:
 ## About Me
 I am a Postdoctoral Researcher at the Institute for Basic Science (IBS), where I have the privilege of working with Prof. [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/) in the [Extremal Combinatorics and Probability Group](https://www.ibs.re.kr/ecopro/). I am grateful for his guidance and support.
 
-I received my Ph.D. in Mathematics from the University of Science and Technology of China in 2026, where I had the privilege of being advised by Prof. [Jie Ma](https://faculty.ustc.edu.cn/majie/en/index.htm). His guidance has been foundational to my development as a researcher.
+I received my Ph.D. in Mathematics from the University of Science and Technology of China in 2026, where I had the privilege of being advised by Prof. [Jie Ma](http://staff.ustc.edu.cn/~jiema/). His guidance has been foundational to my development as a researcher.
 
 During my doctoral studies, I was a Visiting Student Researcher at the University of Warwick, where I had the opportunity to work with Prof. [Oleg Pikhurko](https://warwick.ac.uk/fac/sci/maths/people/staff/oleg_pikhurko/) and benefit from his insights.
 
