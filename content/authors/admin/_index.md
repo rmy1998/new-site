@@ -22,7 +22,7 @@ role: ''
 organizations:
   - name: Institute for Basic Science (IBS)
     url: https://www.ibs.re.kr/ecopro/
-  - name: 'Email: rong_ming_yuan (at) mail.ustc.edu.cn'
+  - name: 'Email: mingyuanrong (at) ibs.re.kr'
 
 interests:
   - Extremal Set Theory
@@ -117,4 +117,4 @@ I received my Ph.D. in Mathematics from the University of Science and Technology
 
 During my doctoral studies, I was a Visiting Student Researcher at the University of Warwick, where I had the opportunity to work with Prof. [Oleg Pikhurko](https://warwick.ac.uk/fac/sci/maths/people/staff/oleg_pikhurko/) and benefit from his insights.
 
-I have also benefited from discussions, collaborations, and support from Prof. [Jun Gao](https://jungao0211.github.io/), Prof. [Tuan Tran](https://tuaentran.wixsite.com/homepage), Dr. [Zixiang Xu](https://zjwyz.github.io/zixiangxu/), Prof. [Xizhi Liu](https://xliu2022.github.io/), and Dr. [Xinqi Huang](https://huangxinqi314.github.io/hxq-website/), and I am thankful for the insights and encouragement they have shared with me along the way.
+I have also benefited from discussions, collaborations, and support from Prof. [Jun Gao](https://jungao0211.github.io/), Prof. [Tuan Tran](https://tuaentran.wixsite.com/homepage), Prof. [Zixiang Xu](https://zjwyz.github.io/zixiangxu/), Prof. [Xizhi Liu](https://xliu2022.github.io/), and Dr. [Xinqi Huang](https://huangxinqi314.github.io/hxq-website/), and I am thankful for the insights and encouragement they have shared with me along the way.
