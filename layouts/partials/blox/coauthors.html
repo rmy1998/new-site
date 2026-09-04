@@ -1,0 +1,39 @@
+{{/*
+  Co-author names are counted exactly as written in publication front matter.
+  Before adding a publication, compare every spelling with the existing files.
+  Never guess that two variants are the same person: a typo creates a second
+  entry and must be corrected in the publication source.
+*/}}
+{{ $block := .wcBlock }}
+
+{{ $counts := newScratch }}
+{{ $links := newScratch }}
+{{ range where site.RegularPages "Section" "publication" }}
+  {{ range .Params.authors }}
+    {{ $name := strings.TrimSpace (printf "%v" .) }}
+    {{ if and (ne $name "admin") (ne $name "Mingyuan Rong") }}
+      {{ $counts.Add $name 1 }}
+      {{ $links.Set $name (index site.Data.coauthor_links $name | default "") }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $rows := slice }}
+{{ range $name, $count := $counts.Values }}
+  {{ $rows = $rows | append (dict "name" $name "count" $count "url" ($links.Get $name)) }}
+{{ end }}
+{{ $rows = sort $rows "name" "asc" }}
+{{ $rows = sort $rows "count" "desc" }}
+
+<div class="flex w-full max-w-6xl flex-col items-center mx-auto gap-3 justify-center px-6">
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ $block.content.title | default "Co-authors" }}
+  </div>
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none" style="width: 80%; margin-left: auto; margin-right: auto">
+    <p style="text-align: justify; text-align-last: start">
+      {{- range $index, $row := $rows }}
+        <span style="display: inline-block; white-space: nowrap">{{ with $row.url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $row.name }}</a>{{ else }}{{ $row.name }}{{ end }}<span class="ml-1 tabular-nums">({{ $row.count }})</span></span>{{ if lt $index (sub (len $rows) 1) }}, {{ end }}
+      {{- end }}
+    </p>
+  </div>
+</div>

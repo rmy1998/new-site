@@ -1,12 +1,12 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Rong's homepage"
+title: "Mingyuan Rong"
 date: 2025-01-07
 type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "5rem"
 
 sections:
   - block: resume-biography-3
@@ -17,9 +17,11 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: /files/uploads/resume.pdf
     design:
       css_class: dark
+      spacing:
+        padding: ["0", "0", "5rem", "0"]
       background:
         color: black
         image:
@@ -30,38 +32,17 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: collection
+  - block: publication-columns
     content:
-      title: Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
+      title: Research
     design:
-      view: citation
-  - block: markdown
+      spacing:
+        padding: ['2.5rem', '0', '3.5rem', '0']
+  - block: coauthors
     content:
       title: 'Co-authors'
-      subtitle: ''
-      text: "[Jie Ma](http://staff.ustc.edu.cn/~jiema/)(5), [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/)(4), [Xinqi Huang](https://huangxinqi314.github.io/hxq-website/experience/)(2), Mingze Li(2), Wenchong Chen(1), [Xinbu Cheng](https://about.me/xinbu)(1), Guorong Gao(1), [Jun Gao](https://jungao0211.github.io/)(1), [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/)(1), [Oleg Pikhurko](https://pikhurko.github.io/)(1), Yuzhen Qi(1), [Shumin Sun](https://warwick.ac.uk/fac/sci/maths/people/staff/sun/)(1), [Tuan Tran](https://tuaentran.wixsite.com/homepage)(1)."
     design:
       columns: '1'
-  - block: markdown
-    content:
-      title: 'Useful websites'
-      subtitle: 'some tools that I recommend for academic research'
-      text: |
-        - **[Deepseek](https://chat.deepseek.com/)**  
-        - **[Inciteful](https://inciteful.xyz/)**  
-        - **[Undermind](https://www.undermind.ai/home/)**  
-    design:
-      columns: '1'
-  - block: markdown
-    content:
-      title: 'Co-authors'
-      subtitle: ''
-      text: "[Jie Ma](http://staff.ustc.edu.cn/~jiema/)(2), Xinqi Huang(1), Xinbu Cheng(1), Guorong Gao(1), Mingze Li(1), [Tuan Tran](https://tuaentran.wixsite.com/homepage)(1), [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/)(1), [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/)(0)."
-    design:
-      columns: '1'
+      spacing:
+        padding: ['2.5rem', '0', '2.5rem', '0']
 ---

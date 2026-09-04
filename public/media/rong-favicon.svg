@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">戎</title>
+  <rect width="512" height="512" rx="64" fill="#087a55" />
+  <!-- Center the chosen white glyph's bounding box; transparent canvas corners stay unchanged. -->
+  <text x="256" y="256" fill="#ffffff" font-family="KaiTi, STKaiti, serif" font-size="410" font-weight="700" text-anchor="middle" dominant-baseline="central">戎</text>
+</svg>

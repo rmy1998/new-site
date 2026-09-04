@@ -1,0 +1,167 @@
+{{/* Local homepage layout: keep portrait details in the left column without relying on generated utility classes. */}}
+<style>
+  .resume-biography .profile-column {
+    flex: 0 0 20rem;
+    width: 20rem;
+    max-width: 100%;
+  }
+
+  .resume-biography .bio-column {
+    flex: 1 1 34rem;
+    min-width: 0;
+    max-width: 42rem;
+    margin-top: -1.125rem;
+  }
+
+  .resume-biography .profile-highlights {
+    width: 100%;
+    margin-top: 0;
+    padding: 0 0.25rem;
+    color: rgb(209 213 219);
+    text-align: left;
+  }
+
+  /* Keep Education directly below the profile card, without an empty spacer. */
+  .resume-biography #profile {
+    padding-bottom: 0;
+  }
+
+  /* Balance the final homepage section with the footer beneath it. */
+  .page-body:has(.blox-coauthors) + .page-footer footer {
+    margin-top: 2.5rem;
+  }
+
+  .resume-biography .bio-interests {
+    margin-top: 2rem;
+    color: rgb(209 213 219);
+    text-align: left;
+  }
+
+  .resume-biography .bio-interests-body {
+    display: grid;
+    grid-template-columns: minmax(14rem, 22rem) max-content;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  .resume-biography .cv-download {
+    justify-self: start;
+    transform: translateY(-0.9rem);
+  }
+
+  .resume-biography .bio-interest-list {
+    margin: 0;
+    padding-left: 1.2rem;
+    list-style: disc;
+  }
+
+  .resume-biography .bio-interest-list li + li {
+    margin-top: 0.25rem;
+  }
+
+  .resume-biography .profile-education-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .resume-biography .profile-education-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .resume-biography .profile-education-item + .profile-education-item {
+    margin-top: 0.75rem;
+  }
+
+  .resume-biography .profile-education-item .description {
+    min-width: 0;
+  }
+
+  .resume-biography .profile-education-item .description p {
+    margin: 0;
+    line-height: 1.35;
+  }
+
+  /* Lock a fixed navbar height; treat the brand as an ABSOLUTE overlay so nothing can push it off the top-left.
+     Logo height uses % of the header so it scales together with the page. !important wins over theme rules. */
+  #site-header.header {
+    height: 4rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+  .navbar {
+    height: 4rem !important;
+    align-items: center !important;
+  }
+  .navbar-brand {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    padding: 0 0 0 1.7rem !important;
+    height: 4rem !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    z-index: 20 !important;
+  }
+  .calligraphy-img {
+    display: block !important;
+    height: 95% !important;
+    width: auto !important;
+    margin: 0.2rem 0 0 0 !important;
+    max-height: none !important;
+  }
+
+  .navbar {
+    position: relative !important;
+  }
+
+  @media (min-width: 768px) {
+    /* Center the nav menu on the page and give every item the same width,
+       so the middle item (Research) lands exactly on the page center. */
+    .navbar #nav-menu {
+      position: absolute !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      display: flex !important;
+      justify-content: center !important;
+      gap: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    .navbar #nav-menu .nav-item {
+      flex: 0 0 110px !important;
+      width: 110px !important;
+      text-align: center !important;
+    }
+    .navbar #nav-menu .nav-link {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .resume-biography .profile-column {
+      flex-basis: auto;
+      width: min(100%, 24rem);
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .resume-biography .bio-column {
+      width: 100%;
+      max-width: 42rem;
+    }
+
+    .resume-biography .bio-interests-body {
+      grid-template-columns: 1fr;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+  }
+</style>

@@ -1,10 +1,12 @@
 ---
 title: "Optimal stability results on color-biased Hamilton cycles"
+publication_status: preprint
 authors:
 - Wenchong Chen
 - admin
 - Zixiang Xu
-date: "2025-07-29T00:00:00Z"
+date: "2025-07-23T00:00:00Z"
+publication_year: 2025
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

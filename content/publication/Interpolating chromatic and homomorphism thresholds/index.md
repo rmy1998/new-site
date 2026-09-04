@@ -1,11 +1,13 @@
 ---
 title: "Interpolating chromatic and homomorphism thresholds"
+publication_status: preprint
 authors:
 - Xinqi Huang
 - Hong Liu
 - admin
 - Zixiang Xu
 date: "2025-02-13T00:00:00Z"
+publication_year: 2025
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

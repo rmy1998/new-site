@@ -1,10 +1,12 @@
 ---
 title: "Recent advances in arrow relations and traces of sets"
+publication_status: published
 authors:
 - Mingze Li
 - Jie Ma
 - admin
 date: "2025-07-31T00:00:00Z"
+publication_year: 2026
 doi: "10.1007/978-3-032-18810-6_14"
 
 # Schedule page publish date (NOT publication's date).
@@ -12,11 +14,11 @@ doi: "10.1007/978-3-032-18810-6_14"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["chapter"]
 
 # Publication name and optional abbreviated publication name.
 publication: "In Sum(m)it280: Surveys in Extremal Combinatorics and Combinatorial Geometry, Bolyai Society Mathematical Studies, vol. 32, Springer, pp. 327-354, 2026"
-publication_short: "Sum(m)it280"
+publication_short: "Sum(m)it 280"
 
 abstract: |
   The arrow relation, a central concept in extremal set theory, captures quantitative relationships between families of sets and their traces. Formally, the arrow relation $(n, m) \rightarrow (a, b)$ signifies that for any family $\mathcal{F} \subseteq 2^{[n]}$ with $|\mathcal{F}| \geqslant m$, there exists an $a$-element subset $T \subseteq [n]$ such that the trace $\mathcal{F}_{|T} = \{ F \cap T : F \in \mathcal{F} \}$ contains at least $b$ distinct sets. 

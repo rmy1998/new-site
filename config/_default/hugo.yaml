@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Rong's webpage
+title: Mingyuan Rong
 # Website URL
 baseURL: 'https://www.mingyuanrong.com/'
 
@@ -44,8 +44,6 @@ imaging:
 timeout: 600000
 taxonomies:
   author: authors
-  tag: tags
-  publication_type: publication_types
 markup:
   _merge: deep
   highlight:

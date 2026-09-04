@@ -1,0 +1,8 @@
+{{/* Keep one fixed dark appearance and override obsolete saved choices before first paint. */}}
+<script>
+  document.documentElement.classList.add('dark');
+  document.documentElement.style.colorScheme = 'dark';
+  try {
+    localStorage.setItem('wc-color-theme', 'dark');
+  } catch (_) {}
+</script>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>戎 · Favicon 候选</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 320px; background: #161918; color: #f7faf8; font-family: system-ui, "Microsoft YaHei", sans-serif; }
+    main { max-width: 1080px; margin: 0 auto; padding: 40px 24px 56px; }
+    h1 { margin: 0; font-size: 28px; font-weight: 650; letter-spacing: .02em; }
+    #selection { margin: 10px 0 32px; color: #b7c7c0; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
+    .candidate { appearance: none; display: grid; gap: 10px; width: 100%; padding: 0; color: inherit; background: transparent; border: 0; cursor: pointer; text-align: left; }
+    .candidate:focus-visible { outline: 3px solid #d1fae5; outline-offset: 5px; }
+    .candidate svg { display: block; width: 100%; aspect-ratio: 1; }
+    .candidate .label { display: flex; align-items: baseline; gap: 8px; color: #c7d3cd; font-size: 14px; }
+    .candidate .number { color: #f7faf8; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .candidate.selected svg { outline: 4px solid #d1fae5; outline-offset: 4px; }
+    .candidate.selected .label { color: #d1fae5; }
+    .g { fill: #fff; text-anchor: middle; dominant-baseline: central; }
+    .g01 { font-family: STXingkai, STKaiti, KaiTi, serif; font-size: 334px; }
+    .g02 { font-family: STXingkai, STKaiti, KaiTi, serif; font-size: 306px; font-weight: 700; }
+    .g03 { font-family: STKaiti, KaiTi, Kaiti SC, serif; font-size: 350px; font-weight: 700; }
+    .g04 { font-family: STKaiti, KaiTi, Kaiti SC, serif; font-size: 318px; font-weight: 700; }
+    .g05 { font-family: STLiti, SimLi, serif; font-size: 336px; }
+    .g06 { font-family: STLiti, SimLi, serif; font-size: 362px; font-weight: 700; }
+    .g07 { font-family: STZhongSong, STSong, SimSun, serif; font-size: 348px; }
+    .g08 { font-family: STSong, SimSun, serif; font-size: 356px; font-weight: 700; }
+    .g09 { font-family: STFangsong, FangSong, serif; font-size: 350px; font-weight: 700; }
+    .g10 { font-family: STXihei, "Microsoft YaHei", sans-serif; font-size: 326px; font-weight: 800; }
+    .g11 { font-family: STHeiti, "Microsoft YaHei", sans-serif; font-size: 344px; font-weight: 900; }
+    .g12 { font-family: STHupo, STHeiti, "Microsoft YaHei", sans-serif; font-size: 338px; }
+    .g13 { font-family: STCaiyun, STKaiti, KaiTi, serif; font-size: 334px; }
+    .g14 { font-family: STXinwei, STKaiti, KaiTi, serif; font-size: 340px; }
+    .g15 { font-family: SimLi, STLiti, serif; font-size: 350px; }
+    .g16 { font-family: KaiTi, STKaiti, serif; font-size: 410px; font-weight: 700; }
+    .g17 { font-family: STKaiti, KaiTi, serif; font-size: 302px; font-weight: 700; }
+    .g18 { font-family: STXingkai, STKaiti, KaiTi, serif; font-size: 360px; transform: scaleX(.91); transform-origin: 256px 256px; }
+    .g19 { font-family: STSong, SimSun, serif; font-size: 336px; font-weight: 700; transform: scaleY(1.12); transform-origin: 256px 256px; }
+    .g20 { font-family: "Microsoft YaHei", STXihei, sans-serif; font-size: 338px; font-weight: 900; letter-spacing: -18px; }
+    @media (max-width: 760px) { main { padding: 28px 18px 40px; } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>“戎”字 favicon 候选</h1>
+    <p id="selection" aria-live="polite">点一个方案，再告诉我编号即可。</p>
+    <div class="grid" aria-label="20 个 favicon 候选方案">
+      <button class="candidate" type="button" data-choice="01 · 行楷·锋锐" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="01 行楷锋锐"><rect width="512" height="512" fill="#087a55"/><text class="g g01" x="256" y="256">戎</text></svg><span class="label"><span class="number">01</span>行楷·锋锐</span></button>
+      <button class="candidate" type="button" data-choice="02 · 行楷·厚墨" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="02 行楷厚墨"><rect width="512" height="512" fill="#087a55"/><text class="g g02" x="256" y="256">戎</text></svg><span class="label"><span class="number">02</span>行楷·厚墨</span></button>
+      <button class="candidate" type="button" data-choice="03 · 楷体·厚墨" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="03 楷体厚墨"><rect width="512" height="512" fill="#087a55"/><text class="g g03" x="256" y="256">戎</text></svg><span class="label"><span class="number">03</span>楷体·厚墨</span></button>
+      <button class="candidate" type="button" data-choice="04 · 楷体·收束" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="04 楷体收束"><rect width="512" height="512" fill="#087a55"/><text class="g g04" x="256" y="256">戎</text></svg><span class="label"><span class="number">04</span>楷体·收束</span></button>
+      <button class="candidate" type="button" data-choice="05 · 隶书·横势" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="05 隶书横势"><rect width="512" height="512" fill="#087a55"/><text class="g g05" x="256" y="256">戎</text></svg><span class="label"><span class="number">05</span>隶书·横势</span></button>
+      <button class="candidate" type="button" data-choice="06 · 隶书·强势" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="06 隶书强势"><rect width="512" height="512" fill="#087a55"/><text class="g g06" x="256" y="256">戎</text></svg><span class="label"><span class="number">06</span>隶书·强势</span></button>
+      <button class="candidate" type="button" data-choice="07 · 中宋·古雅" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="07 中宋古雅"><rect width="512" height="512" fill="#087a55"/><text class="g g07" x="256" y="256">戎</text></svg><span class="label"><span class="number">07</span>中宋·古雅</span></button>
+      <button class="candidate" type="button" data-choice="08 · 宋体·学术" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="08 宋体学术"><rect width="512" height="512" fill="#087a55"/><text class="g g08" x="256" y="256">戎</text></svg><span class="label"><span class="number">08</span>宋体·学术</span></button>
+      <button class="candidate" type="button" data-choice="09 · 仿宋·清俊" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="09 仿宋清俊"><rect width="512" height="512" fill="#087a55"/><text class="g g09" x="256" y="256">戎</text></svg><span class="label"><span class="number">09</span>仿宋·清俊</span></button>
+      <button class="candidate" type="button" data-choice="10 · 黑体·现代" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="10 黑体现代"><rect width="512" height="512" fill="#087a55"/><text class="g g10" x="256" y="256">戎</text></svg><span class="label"><span class="number">10</span>黑体·现代</span></button>
+      <button class="candidate" type="button" data-choice="11 · 黑体·方正" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="11 黑体方正"><rect width="512" height="512" fill="#087a55"/><text class="g g11" x="256" y="256">戎</text></svg><span class="label"><span class="number">11</span>黑体·方正</span></button>
+      <button class="candidate" type="button" data-choice="12 · 琥珀·厚印" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="12 琥珀厚印"><rect width="512" height="512" fill="#087a55"/><text class="g g12" x="256" y="256">戎</text></svg><span class="label"><span class="number">12</span>琥珀·厚印</span></button>
+      <button class="candidate" type="button" data-choice="13 · 彩云·艺术" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="13 彩云艺术"><rect width="512" height="512" fill="#087a55"/><text class="g g13" x="256" y="256">戎</text></svg><span class="label"><span class="number">13</span>彩云·艺术</span></button>
+      <button class="candidate" type="button" data-choice="14 · 新魏·碑刻" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="14 新魏碑刻"><rect width="512" height="512" fill="#087a55"/><text class="g g14" x="256" y="256">戎</text></svg><span class="label"><span class="number">14</span>新魏·碑刻</span></button>
+      <button class="candidate" type="button" data-choice="15 · 隶书·平衡" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="15 隶书平衡"><rect width="512" height="512" fill="#087a55"/><text class="g g15" x="256" y="256">戎</text></svg><span class="label"><span class="number">15</span>隶书·平衡</span></button>
+      <button class="candidate" type="button" data-choice="16 · 楷体·饱满" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="16 楷体饱满"><rect width="512" height="512" rx="64" fill="#087a55"/><text class="g g16" x="256" y="256">戎</text></svg><span class="label"><span class="number">16</span>楷体·饱满</span></button>
+      <button class="candidate" type="button" data-choice="17 · 楷体·留白" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="17 楷体留白"><rect width="512" height="512" fill="#087a55"/><text class="g g17" x="256" y="256">戎</text></svg><span class="label"><span class="number">17</span>楷体·留白</span></button>
+      <button class="candidate" type="button" data-choice="18 · 行楷·修长" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="18 行楷修长"><rect width="512" height="512" fill="#087a55"/><text class="g g18" x="256" y="256">戎</text></svg><span class="label"><span class="number">18</span>行楷·修长</span></button>
+      <button class="candidate" type="button" data-choice="19 · 宋体·高挑" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="19 宋体高挑"><rect width="512" height="512" fill="#087a55"/><text class="g g19" x="256" y="256">戎</text></svg><span class="label"><span class="number">19</span>宋体·高挑</span></button>
+      <button class="candidate" type="button" data-choice="20 · 极简·现代" aria-pressed="false"><svg viewBox="0 0 512 512" role="img" aria-label="20 极简现代"><rect width="512" height="512" fill="#087a55"/><text class="g g20" x="256" y="256">戎</text></svg><span class="label"><span class="number">20</span>极简·现代</span></button>
+    </div>
+  </main>
+  <script>
+    const selection = document.getElementById('selection');
+    const choices = document.querySelectorAll('.candidate');
+    choices.forEach((choice) => {
+      choice.addEventListener('click', () => {
+        choices.forEach((item) => { item.classList.remove('selected'); item.setAttribute('aria-pressed', 'false'); });
+        choice.classList.add('selected');
+        choice.setAttribute('aria-pressed', 'true');
+        selection.textContent = `已选：${choice.dataset.choice}。把编号告诉我，我就把它定稿为浏览器图标。`;
+      });
+    });
+  </script>
+</body>
+</html>

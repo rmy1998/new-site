@@ -1,11 +1,13 @@
 ---
 title: "Sublinear Hitting Sets for Some Geometric Graphs"
+publication_status: published
 authors:
 - Xinbu Cheng
 - Xinqi Huang
 - admin
 - Zixiang Xu
 date: "2024-04-16T00:00:00Z"
+publication_year: 2026
 doi: "10.3934/fcnt.2026010"
 
 # Schedule page publish date (NOT publication's date).
@@ -16,7 +18,7 @@ doi: "10.3934/fcnt.2026010"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Frontiers in Combinatorics and Number Theory, 2 (2026)"
+publication: "Frontiers in Combinatorics and Number Theory, 2: 23-42, 2026"
 publication_short: "Front. Comb. Number Theory"
 
 abstract: |- 

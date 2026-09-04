@@ -1,0 +1,29 @@
+{{ $block := .wcBlock }}
+{{ $pages := where site.RegularPages "Section" "publication" }}
+{{ $published := where $pages "Params.publication_status" "published" }}
+{{ $preprints := where $pages "Params.publication_status" "preprint" }}
+{{ $published = sort $published "Date" "desc" }}
+{{ $published = sort $published "Params.publication_year" "desc" }}
+{{ $preprints = sort $preprints "Date" "desc" }}
+
+<div class="mx-auto max-w-6xl px-6">
+  <div class="mb-6 flex flex-col items-center">
+    <h2 class="text-4xl font-bold text-gray-900 dark:text-white">{{ $block.content.title | default "Publications" }}</h2>
+  </div>
+
+  <div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
+    <section>
+      <h3 class="mb-6 border-b border-gray-200 pb-3 text-center text-2xl font-bold text-gray-900 dark:border-gray-700 dark:text-white">Published</h3>
+      {{ range $published }}
+        {{ partial "views/citation" (dict "item" .) }}
+      {{ end }}
+    </section>
+
+    <section>
+      <h3 class="mb-6 border-b border-gray-200 pb-3 text-center text-2xl font-bold text-gray-900 dark:border-gray-700 dark:text-white">Preprints</h3>
+      {{ range $preprints }}
+        {{ partial "views/citation" (dict "item" .) }}
+      {{ end }}
+    </section>
+  </div>
+</div>

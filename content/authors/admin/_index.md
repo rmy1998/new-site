@@ -8,10 +8,6 @@ title: Mingyuan Rong
 first_name: Mingyuan
 last_name: Rong
 
-# Status emoji
-status:
-  icon: ☕️
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -19,19 +15,14 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Student
+# Keep the current role in the right-side About Me text rather than duplicating it in the left profile card.
+role: ''
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Science and Technology of China
-    url: https://ustc.edu.cn/
-
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'mailto:rong_ming_yuan@mail.ustc.edu.cn'
-    label: E-mail Me
+  - name: Institute for Basic Science (IBS)
+    url: https://www.ibs.re.kr/ecopro/
+  - name: 'Email: rong_ming_yuan (at) mail.ustc.edu.cn'
 
 interests:
   - Extremal Set Theory
@@ -39,16 +30,24 @@ interests:
 
 
 education:
+  - area: Postdoctoral Researcher
+    experience_area: Postdoctoral Researcher (Senior Researcher)
+    institution: Institute for Basic Science (IBS)
+    date_start: 2026-09-01
+    date_end: ""
+    summary: |
+      Extremal Combinatorics and Probability Group.
+      Working with Prof. Hong Liu.
   - area: Ph.D. in Mathematics
     institution: University of Science and Technology of China
     date_start: 2021-09-01
-    date_end: ''
+    date_end: 2026-06-18
     summary: |
       Advisor: Prof. Jie Ma
   - area: Visiting Student Researcher
     institution: University of Warwick
     date_start: 2025-06-01
-    date_end: ''
+    date_end: 2026-04-20
     summary: |
       A one-year research visit.
       Host and Research Mentor: Prof. Oleg Pikhurko
@@ -100,6 +99,8 @@ languages:
     percent: 100
   - name: English
     percent: 75
+  - name: Korean
+    percent: 10
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -110,8 +111,10 @@ languages:
 ---
 
 ## About Me
-I am a Ph.D. candidate in Mathematics at the University of Science and Technology of China, where I have the privilege of being advised by Prof. [Jie Ma](http://staff.ustc.edu.cn/~jiema/). My research interests lie in extremal set theory and extremal graph theory.
+I am a Postdoctoral Researcher at the Institute for Basic Science (IBS), where I have the privilege of working with Prof. [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/) in the [Extremal Combinatorics and Probability Group](https://www.ibs.re.kr/ecopro/). I am grateful for his guidance and support.
 
-To further broaden my research perspective, I am currently a Visiting Student Researcher at the University of Warwick. I am grateful for this opportunity to work with Prof. [Oleg Pikhurko](https://warwick.ac.uk/fac/sci/maths/people/staff/oleg_pikhurko/) and learn from his invaluable insights.
+I received my Ph.D. in Mathematics from the University of Science and Technology of China in 2026, where I had the privilege of being advised by Prof. [Jie Ma](https://faculty.ustc.edu.cn/majie/en/index.htm). His guidance has been foundational to my development as a researcher.
 
-My work has also been significantly advanced by fruitful collaborations with Prof. [Hong Liu](https://www.ibs.re.kr/ecopro/hongliu/), Prof. [Tuan Tran](https://tuaentran.wixsite.com/homepage), and Dr. [Zixiang Xu](https://www.ibs.re.kr/ecopro/zixiangxu/).
+During my doctoral studies, I was a Visiting Student Researcher at the University of Warwick, where I had the opportunity to work with Prof. [Oleg Pikhurko](https://warwick.ac.uk/fac/sci/maths/people/staff/oleg_pikhurko/) and benefit from his insights.
+
+I have also benefited from discussions, collaborations, and support from Prof. [Jun Gao](https://jungao0211.github.io/), Prof. [Tuan Tran](https://tuaentran.wixsite.com/homepage), Dr. [Zixiang Xu](https://zjwyz.github.io/zixiangxu/), Prof. [Xizhi Liu](https://xliu2022.github.io/), and Dr. [Xinqi Huang](https://huangxinqi314.github.io/hxq-website/), and I am grateful for the insights and encouragement they have shared with me along the way.

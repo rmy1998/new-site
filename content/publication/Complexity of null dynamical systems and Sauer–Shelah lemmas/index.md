@@ -1,11 +1,13 @@
 ---
 title: "Variants of VC dimension and their applications to dynamics"
+publication_status: published
 authors:
 - Guorong Gao
 - Jie Ma
 - admin
 - Tuan Tran
-date: "2023-10-11T00:00:00Z"
+date: "2023-10-09T00:00:00Z"
+publication_year: 2025
 doi: "10.4310/PAMQ.251222233602"
 
 # Schedule page publish date (NOT publication's date).

@@ -1,0 +1,56 @@
+{{ $item := .item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+{{ $authors := $item.Params.authors }}
+{{ $display_year := $item.Params.publication_year | default ($item.Date.Format "2006") }}
+{{ $is_preprint := eq ($item.Params.publication_status | default "preprint") "preprint" }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  <span style="display: block; text-align: justify; text-align-last: start">
+  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+    <span class="article-metadata li-cite-author">
+      {{- range $index, $author := $authors -}}
+        {{- $name := strings.TrimSpace (printf "%v" $author) -}}
+        {{- if gt $index 0 -}}
+          {{- if eq $index (sub (len $authors) 1) -}}
+            {{- if gt (len $authors) 2 }},{{ end }} and&nbsp;
+          {{- else -}},&nbsp;{{- end -}}
+        {{- end -}}
+        <span style="display: inline-block; white-space: nowrap">
+          {{- if or (eq $name "admin") (eq $name "Mingyuan Rong") -}}
+            <strong>Mingyuan Rong</strong>
+          {{- else -}}
+            {{- $url := index site.Data.coauthor_links $name | default "" -}}
+            {{- with $url -}}<a href="{{ . }}" target="_blank" rel="noopener">{{ $name }}</a>{{- else -}}{{ $name }}{{- end -}}
+          {{- end -}}
+        </span>
+      {{- end -}}
+    </span>
+    ({{- $display_year -}}).
+    <span class="font-medium">{{ $item.Title }}</span>.
+    {{ if not $is_preprint }}
+      {{ if $item.Params.publication_short }}
+        {{- strings.TrimSuffix "." $item.Params.publication_short | markdownify -}}.
+      {{ else if $item.Params.publication }}
+        {{- strings.TrimSuffix "." $item.Params.publication | markdownify -}}.
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <span class="article-metadata li-cite-author">{{ delimit $authors ", " }}</span>.
+    <span class="font-medium">{{ $item.Title }}</span>.
+    {{ if $item.Params.publication_short }}
+      {{- $item.Params.publication_short | markdownify -}},
+    {{ else if $item.Params.publication }}
+      {{- $item.Params.publication | markdownify -}},
+    {{ end }}
+    {{- $display_year -}}.
+  {{ end }}
+  </span>
+
+  {{ if $has_attachments }}
+    <div class="flex flex-wrap space-x-3">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
+  {{ end }}
+</div>

@@ -1,11 +1,13 @@
 ---
 title: "Rational codegree Turán density of hypergraphs"
+publication_status: preprint
 authors:
 - Jun Gao
 - Oleg Pikhurko
 - admin
 - Shumin Sun
 date: "2026-01-02T00:00:00Z"
+publication_year: 2026
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

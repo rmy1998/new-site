@@ -1,11 +1,13 @@
 ---
 title: "Largest dyadic dual VC-dimension of non-piercing families"
+publication_status: preprint
 authors:
 - Xinqi Huang
 - Yuzhen Qi
 - admin
 - Zixiang Xu
 date: "2025-06-16T00:00:00Z"
+publication_year: 2025
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

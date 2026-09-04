@@ -1,10 +1,12 @@
 ---
 title: "Exact Results on Traces of Sets"
+publication_status: published
 authors:
 - Mingze Li
 - Jie Ma
 - admin
 date: "2024-06-27T00:00:00Z"
+publication_year: 2026
 doi: "10.1007/s00493-026-00209-y"
 
 # Schedule page publish date (NOT publication's date).
@@ -15,7 +17,7 @@ doi: "10.1007/s00493-026-00209-y"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Combinatorica, 46(3), 2026"
+publication: "Combinatorica, 46, Article 18, 2026"
 publication_short: "Combinatorica"
 
 abstract: |-
