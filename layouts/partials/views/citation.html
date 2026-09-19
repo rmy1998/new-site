@@ -46,6 +46,9 @@
     {{ end }}
     {{- $display_year -}}.
   {{ end }}
+  {{ with $item.Params.review_status }}
+    <span class="publication-review-status">{{ strings.TrimSuffix "." . }}.</span>
+  {{ end }}
   </span>
 
   {{ if $has_attachments }}

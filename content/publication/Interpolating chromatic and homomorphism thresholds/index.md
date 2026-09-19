@@ -1,6 +1,7 @@
 ---
 title: "Interpolating chromatic and homomorphism thresholds"
 publication_status: preprint
+review_status: "Journal of Combinatorial Theory, Series B, minor revision"
 authors:
 - Xinqi Huang
 - Hong Liu
