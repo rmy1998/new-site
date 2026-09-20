@@ -47,8 +47,8 @@
     </span>
     {{ end }}
   {{ with $item.Params.review_status }}
-    {{ " " }}<span class="publication-review-status">
-      <strong style="font-weight: 800; font-size: 1.06em">{{ strings.TrimSuffix "." . }}</strong>{{ with $item.Params.review_journal }} at {{ . }}{{ end }}.
+    <span class="publication-review-status" style="display: block; margin-top: 0.2rem; text-align: left">
+      <strong style="font-weight: 800; font-size: 1.06em; white-space: nowrap; text-decoration: underline; text-underline-offset: 0.16em; text-decoration-thickness: 0.08em">{{ strings.TrimSuffix "." . }}</strong>{{ with $item.Params.review_journal }} at {{ . }}{{ end }}.
     </span>
   {{ end }}
   </span>
