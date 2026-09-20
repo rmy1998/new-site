@@ -12,7 +12,7 @@
 {{ $block := . }}
 {{ $pages := .Pages }}
 {{ $published := where $pages "Params.publication_status" "published" }}
-{{ $under_revision := where $pages "Params.publication_status" "minor_revision" }}
+{{ $minor_revision := where $pages "Params.publication_status" "minor_revision" }}
 {{ $preprints := where $pages "Params.publication_status" "preprint" }}
 {{ $published = sort $published "Date" "desc" }}
 {{ $published = sort $published "Params.publication_year" "desc" }}
@@ -25,9 +25,8 @@
       {{ range $published }}
         {{ partial "views/citation" (dict "item" .) }}
       {{ end }}
-      {{ with $under_revision }}
-        <div class="publication-under-revision" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(148, 163, 184, 0.35)">
-          <h3 style="font-weight: 600; margin-bottom: 0.75rem">Under revision</h3>
+      {{ with $minor_revision }}
+        <div class="publication-minor-revision" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(148, 163, 184, 0.35)">
           {{ range . }}
             {{ partial "views/citation" (dict "item" .) }}
           {{ end }}
