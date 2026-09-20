@@ -17,7 +17,7 @@ doi: "10.1007/978-3-032-18810-6_14"
 publication_types: ["chapter"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In Sum(m)it280: Surveys in Extremal Combinatorics and Combinatorial Geometry, Bolyai Society Mathematical Studies, vol. 32, Springer, pp. 327-354, 2026"
+publication: "In G. O. H. Katona, B. Patkós, and C. Tompkins (eds.), Sum(m)it280, Bolyai Society Mathematical Studies 32, Springer (2026), pp. 327–354"
 publication_short: "Sum(m)it 280"
 
 abstract: |

@@ -18,7 +18,7 @@ doi: "10.3934/fcnt.2026010"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Frontiers in Combinatorics and Number Theory, 2: 23-42, 2026"
+publication: "Frontiers in Combinatorics and Number Theory 2 (2026), 23–42"
 publication_short: "Front. Comb. Number Theory"
 
 abstract: |- 

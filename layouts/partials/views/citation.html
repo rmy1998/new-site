@@ -2,13 +2,18 @@
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 {{ $authors := $item.Params.authors }}
 {{ $display_year := $item.Params.publication_year | default ($item.Date.Format "2006") }}
-{{ $is_preprint := eq ($item.Params.publication_status | default "preprint") "preprint" }}
+{{ $is_published := eq ($item.Params.publication_status | default "preprint") "published" }}
+{{ $arxiv_url := "" }}
+{{ range $item.Params.links }}
+  {{ if eq .name "arXiv" }}{{ $arxiv_url = .url }}{{ end }}
+{{ end }}
+{{ $article_url := $arxiv_url | default $item.Params.url_pdf }}
+{{ with $item.Params.doi }}{{ $article_url = printf "https://doi.org/%s" . }}{{ end }}
 
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   <span style="display: block; text-align: justify; text-align-last: start">
-  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
     <span class="article-metadata li-cite-author">
       {{- range $index, $author := $authors -}}
         {{- $name := strings.TrimSpace (printf "%v" $author) -}}
@@ -26,26 +31,19 @@
           {{- end -}}
         </span>
       {{- end -}}
+    </span>.
+    <span class="font-medium">
+      {{- with $article_url -}}
+        <a class="publication-title-link" href="{{ . }}" target="_blank" rel="noopener" style="text-decoration: underline; text-underline-offset: 0.15em">{{ $item.Title }}</a>
+      {{- else -}}{{ $item.Title }}{{- end -}}
+    </span>.
+    <span class="publication-bibliography">
+    {{ if $is_published }}
+      {{ with $item.Params.publication }}{{ strings.TrimSuffix "." . | markdownify }}{{ else }}({{ $display_year }}){{ end }}.
+    {{ else }}
+      {{ with $arxiv_url }}arXiv:{{ strings.TrimPrefix "https://arxiv.org/abs/" . }} {{ end }}({{ $display_year }}).
+    {{ end }}
     </span>
-    ({{- $display_year -}}).
-    <span class="font-medium">{{ $item.Title }}</span>.
-    {{ if not $is_preprint }}
-      {{ if $item.Params.publication_short }}
-        {{- strings.TrimSuffix "." $item.Params.publication_short | markdownify -}}.
-      {{ else if $item.Params.publication }}
-        {{- strings.TrimSuffix "." $item.Params.publication | markdownify -}}.
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    <span class="article-metadata li-cite-author">{{ delimit $authors ", " }}</span>.
-    <span class="font-medium">{{ $item.Title }}</span>.
-    {{ if $item.Params.publication_short }}
-      {{- $item.Params.publication_short | markdownify -}},
-    {{ else if $item.Params.publication }}
-      {{- $item.Params.publication | markdownify -}},
-    {{ end }}
-    {{- $display_year -}}.
-  {{ end }}
   {{ with $item.Params.review_status }}
     <span class="publication-review-status" style="display: block; margin-top: 0.4rem; text-align: left">
       <strong>{{ strings.TrimSuffix "." . }}</strong>{{ with $item.Params.review_journal }} &mdash; {{ . }}{{ end }}.

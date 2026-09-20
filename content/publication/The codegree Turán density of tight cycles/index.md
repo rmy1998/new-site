@@ -18,7 +18,7 @@ doi: ""
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of the London Mathematical Society, to appear"
+publication: "Journal of the London Mathematical Society (2026), to appear"
 publication_short: "J. London Math. Soc., to appear"
 
 abstract: We determine the codegree Turán density of $k$-uniform tight cycles for all prime $k$ and a dense set of general $k$, answering a question of Han, Lo, and Sanhueza-Matamala.

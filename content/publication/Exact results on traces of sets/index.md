@@ -17,7 +17,7 @@ doi: "10.1007/s00493-026-00209-y"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Combinatorica, 46, Article 18, 2026"
+publication: "Combinatorica 46 (2026), Article 18"
 publication_short: "Combinatorica"
 
 abstract: |-
