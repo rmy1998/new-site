@@ -11,13 +11,11 @@
 {{ $view := .Params.view | default "citation" }}
 {{ $block := . }}
 {{ $pages := .Pages }}
-{{ $published := where $pages "Params.publication_status" "published" }}
-{{ $minor_revision := where $pages "Params.publication_status" "minor_revision" }}
+{{ $published := where $pages "Params.publication_status" "in" (slice "published" "minor_revision") }}
 {{ $preprints := where $pages "Params.publication_status" "preprint" }}
 {{ $published = sort $published "Date" "desc" }}
 {{ $published = sort $published "Params.publication_year" "desc" }}
-{{ $published_tail := where $published "Params.publication_list_last" true }}
-{{ $published = where $published "Params.publication_list_last" "ne" true }}
+{{ $published = sort $published "Params.publication_list_order" "asc" }}
 {{ $preprints = sort $preprints "Date" "desc" }}
 
 <div class="mx-auto max-w-6xl px-6">
@@ -26,16 +24,6 @@
       <h2 class="mb-6 border-b border-gray-200 pb-3 text-center text-2xl font-bold text-gray-900 dark:border-gray-700 dark:text-white">Published</h2>
       {{ range $published }}
         {{ partial "views/citation" (dict "item" .) }}
-      {{ end }}
-      {{ range $published_tail }}
-        {{ partial "views/citation" (dict "item" .) }}
-      {{ end }}
-      {{ with $minor_revision }}
-        <div class="publication-minor-revision" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(148, 163, 184, 0.35)">
-          {{ range . }}
-            {{ partial "views/citation" (dict "item" .) }}
-          {{ end }}
-        </div>
       {{ end }}
     </section>
     <section>

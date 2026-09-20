@@ -3,6 +3,7 @@ title: "The codegree Turán density of tight cycles"
 # Accepted by JLMS. Keep this in the journal-publication column, but retain
 # "to appear" until the final volume, issue, pages, and journal DOI are assigned.
 publication_status: published
+publication_list_order: 10
 authors:
 - Jie Ma
 - admin

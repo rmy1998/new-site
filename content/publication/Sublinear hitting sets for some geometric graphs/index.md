@@ -1,6 +1,7 @@
 ---
 title: "Sublinear Hitting Sets for Some Geometric Graphs"
 publication_status: published
+publication_list_order: 40
 authors:
 - Xinbu Cheng
 - Xinqi Huang

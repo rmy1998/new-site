@@ -1,6 +1,8 @@
 ---
 title: "Interpolating chromatic and homomorphism thresholds"
 publication_status: minor_revision
+publication_list_order: 30
+hide_arxiv_citation: true
 review_status: "Minor revision"
 review_journal: "Journal of Combinatorial Theory, Series B"
 authors:
@@ -32,9 +34,7 @@ tags:
 featured: true
 
 url_pdf: https://arxiv.org/pdf/2502.09576
-links:
-  - name: arXiv
-    url: https://arxiv.org/abs/2502.09576
+arxiv_url: https://arxiv.org/abs/2502.09576
 
 
 # Featured image

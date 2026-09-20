@@ -1,6 +1,7 @@
 ---
 title: "Exact Results on Traces of Sets"
 publication_status: published
+publication_list_order: 20
 authors:
 - Mingze Li
 - Jie Ma

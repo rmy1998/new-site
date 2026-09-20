@@ -3,7 +3,7 @@
 {{ $authors := $item.Params.authors }}
 {{ $display_year := $item.Params.publication_year | default ($item.Date.Format "2006") }}
 {{ $is_published := eq ($item.Params.publication_status | default "preprint") "published" }}
-{{ $arxiv_url := "" }}
+{{ $arxiv_url := $item.Params.arxiv_url | default "" }}
 {{ range $item.Params.links }}
   {{ if eq .name "arXiv" }}{{ $arxiv_url = .url }}{{ end }}
 {{ end }}
@@ -37,6 +37,7 @@
         <a class="publication-title-link" href="{{ . }}" target="_blank" rel="noopener" style="text-decoration: underline; text-underline-offset: 0.15em">{{ $item.Title }}</a>
       {{- else -}}{{ $item.Title }}{{- end -}}
     </span>.
+    {{ if not $item.Params.hide_arxiv_citation }}
     <span class="publication-bibliography">
     {{ if $is_published }}
       {{ with $item.Params.publication }}{{ strings.TrimSuffix "." . | markdownify }}{{ else }}({{ $display_year }}){{ end }}.
@@ -44,9 +45,10 @@
       {{ with $arxiv_url }}arXiv:{{ strings.TrimPrefix "https://arxiv.org/abs/" . }} {{ end }}({{ $display_year }}).
     {{ end }}
     </span>
+    {{ end }}
   {{ with $item.Params.review_status }}
     {{ " " }}<span class="publication-review-status">
-      <strong>{{ strings.TrimSuffix "." . }}</strong>{{ with $item.Params.review_journal }} at {{ . }}{{ end }}.
+      <strong style="font-weight: 800; font-size: 1.06em">{{ strings.TrimSuffix "." . }}</strong>{{ with $item.Params.review_journal }} at {{ . }}{{ end }}.
     </span>
   {{ end }}
   </span>

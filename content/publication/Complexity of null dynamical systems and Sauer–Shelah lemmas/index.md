@@ -1,6 +1,7 @@
 ---
 title: "Variants of VC dimension and their applications to dynamics"
 publication_status: published
+publication_list_order: 60
 authors:
 - Guorong Gao
 - Jie Ma
