@@ -1,6 +1,7 @@
 ---
 title: "Recent advances in arrow relations and traces of sets"
 publication_status: published
+publication_list_last: true
 authors:
 - Mingze Li
 - Jie Ma

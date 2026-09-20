@@ -16,6 +16,8 @@
 {{ $preprints := where $pages "Params.publication_status" "preprint" }}
 {{ $published = sort $published "Date" "desc" }}
 {{ $published = sort $published "Params.publication_year" "desc" }}
+{{ $published_tail := where $published "Params.publication_list_last" true }}
+{{ $published = where $published "Params.publication_list_last" "ne" true }}
 {{ $preprints = sort $preprints "Date" "desc" }}
 
 <div class="mx-auto max-w-6xl px-6">
@@ -23,6 +25,9 @@
     <section>
       <h2 class="mb-6 border-b border-gray-200 pb-3 text-center text-2xl font-bold text-gray-900 dark:border-gray-700 dark:text-white">Published</h2>
       {{ range $published }}
+        {{ partial "views/citation" (dict "item" .) }}
+      {{ end }}
+      {{ range $published_tail }}
         {{ partial "views/citation" (dict "item" .) }}
       {{ end }}
       {{ with $minor_revision }}
