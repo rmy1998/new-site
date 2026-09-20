@@ -46,7 +46,7 @@
     </span>
   {{ with $item.Params.review_status }}
     {{ " " }}<span class="publication-review-status">
-      <strong>{{ strings.TrimSuffix "." . }}</strong>{{ with $item.Params.review_journal }} &mdash; {{ . }}{{ end }}.
+      <strong>{{ strings.TrimSuffix "." . }}</strong>{{ with $item.Params.review_journal }} at {{ . }}{{ end }}.
     </span>
   {{ end }}
   </span>
