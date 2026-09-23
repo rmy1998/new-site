@@ -1,7 +1,6 @@
 ---
 title: "The codegree Turán density of tight cycles"
-# Accepted by JLMS. Keep this in the journal-publication column, but retain
-# "to appear" until the final volume, issue, pages, and journal DOI are assigned.
+# Published citation verified against Crossref on 2026-09-23.
 publication_status: published
 publication_list_order: 10
 authors:
@@ -9,7 +8,7 @@ authors:
 - admin
 date: "2025-12-28T00:00:00Z"
 publication_year: 2026
-doi: ""
+doi: "10.1112/jlms.70711"
 
 # Schedule page publish date (NOT publication's date).
 
@@ -19,8 +18,8 @@ doi: ""
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of the London Mathematical Society (2026), to appear"
-publication_short: "J. London Math. Soc., to appear"
+publication: "Journal of the London Mathematical Society 114(3) (2026), e70711"
+publication_short: "J. London Math. Soc. 114(3) (2026), e70711"
 
 abstract: We determine the codegree Turán density of $k$-uniform tight cycles for all prime $k$ and a dense set of general $k$, answering a question of Han, Lo, and Sanhueza-Matamala.
 
