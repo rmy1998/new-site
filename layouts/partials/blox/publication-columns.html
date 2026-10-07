@@ -1,6 +1,6 @@
 {{ $block := .wcBlock }}
 {{ $pages := where site.RegularPages "Section" "publication" }}
-{{ $published := where $pages "Params.publication_status" "in" (slice "published" "minor_revision") }}
+{{ $published := where $pages "Params.publication_status" "in" (slice "published" "accepted" "minor_revision") }}
 {{ $preprints := where $pages "Params.publication_status" "preprint" }}
 {{ $published = sort $published "Date" "desc" }}
 {{ $published = sort $published "Params.publication_year" "desc" }}

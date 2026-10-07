@@ -1,9 +1,10 @@
 ---
 title: "Interpolating chromatic and homomorphism thresholds"
-publication_status: minor_revision
+publication_status: accepted
 publication_list_order: 30
 hide_arxiv_citation: true
-review_status: "Minor revision"
+review_status: "Accepted for publication"
+review_connector: "in"
 review_journal: "Journal of Combinatorial Theory, Series B"
 authors:
 - Xinqi Huang
