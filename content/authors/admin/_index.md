@@ -22,7 +22,7 @@ role: ''
 organizations:
   - name: Institute for Basic Science (IBS)
     url: https://www.ibs.re.kr/ecopro/
-  - name: 'Email: mingyuanrong (at) ibs.re.kr'
+  - name: 'Email: rong_ming_yuan (at) mail.ustc.edu.cn'
 
 interests:
   - Extremal Set Theory
